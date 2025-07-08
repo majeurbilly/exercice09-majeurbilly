@@ -1,4 +1,7 @@
 #include "stdafx.h"
+
+#include <iostream>
+
 #include "CppUnitTest.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
@@ -11,7 +14,8 @@ namespace TestsCode
 		
 		TEST_METHOD(TestMethod1)
 		{
-			// TODO: Ici, votre code de test
+			std::string p =  "Billy";
+			std::string q =  "B i l l y";
 		}
 
 	};
